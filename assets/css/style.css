@@ -39,10 +39,12 @@ header {
 }
 
 .intro {
-  padding: 50px;
-
+  padding: 300px 200px;
+  background-image: url("/assets/img/assortment-handdrawn-colorful-fruits-vegetablesincluding-260nw-2471459681.png");
+  background-size: 1800px;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
-
   h1 {
     margin: 0px;
     font-size: 30px;
@@ -51,7 +53,7 @@ header {
 }
 .emotion {
   background-color: #bfa9ae;
-  padding: 50px;
+  padding: 100px 200px;
   text-align: center;
   h1 {
     margin: 0px 200px;
@@ -64,24 +66,50 @@ header {
   background-size: 800px;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 50px;
+  padding: 100px 0;
   text-align: center;
-  h2 {
-    font-size: 50px;
-    font-family: "Caveat", cursive;
-  }
-  p {
-    font-size: 24px;
+  display: flex;
+  align-items: center;
+  .step-text {
+    padding: 100px 100px;
+    h2 {
+      font-size: 50px;
+      font-family: "Caveat", cursive;
+    }
+    p {
+      font-size: 24px;
+    }
   }
 }
 .buy {
-  padding: 50px;
+  padding: 100px 300px;
   text-align: center;
   h1 {
     font-size: 24px;
     font-family: "Caveat", cursive;
+    background-color: #bfa9ae;
+    border-radius: 25px;
+    padding: 25px;
+  }
+
+  a {
+    background-color: #aa8892;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  a:hover {
+    background-color: #bfa9ae;
+    color: #000;
   }
 }
+.mockup img {
+  width: 600px;
+  height: auto;
+}
+
 footer {
   background-color: #aa8892;
   padding: 0;
