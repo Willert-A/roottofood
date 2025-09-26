@@ -40,7 +40,7 @@ header {
 
 .intro {
   padding: 300px 200px;
-  background-image: url("assets/img/assortment-handdrawn-colorful-fruits-vegetablesincluding-260nw-2471459681.png");
+  background-image: url("../img/assortment-handdrawn-colorful-fruits-vegetablesincluding-260nw-2471459681.png");
   background-size: 1800px;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,7 +62,7 @@ header {
   }
 }
 .step {
-  background-image: url("assets/img/Kogebog_Logo_Splat.png");
+  background-image: url("../img/Kogebog_Logo_Splat.png");
   background-size: 800px;
   background-repeat: no-repeat;
   background-position: center;
